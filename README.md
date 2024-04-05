@@ -28,10 +28,6 @@ This project was made possible with the help of the following resources:
 2. Brute force appoach of developement.
 3. Code repetition.
 
-A big thanks to [Vishal](https://github.com/vishalparmar3542) for his creative work and open-source contribution.
-
-Wantedbear Productions😉
-
 ## Screenshots
 
 ![Home Screen](https://github.com/wantedbear007/Complaint-Management-PHP/blob/main/Screenshots/home.png)
