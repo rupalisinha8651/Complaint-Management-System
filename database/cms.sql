@@ -40,9 +40,10 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `password`, `position`, `profileURL`) VALUES
-(1, 'rupali', 'admin', 'Lead Developer', 'https://media.licdn.com/dms/image/D4D03AQGoF1RTHzNwMw/profile-displayphoto-shrink_800_800/0/1698758401443?e=1717632000&v=beta&t=SVxyAFJjiCHY8dMwUUIQjyH7A8N8WnkAuJOvdKO67Xw'),
-(2, 'sapna', 'admin', 'Lead Developer', 'https://media.licdn.com/dms/image/D5635AQFsmHEFBO0wpg/profile-framedphoto-shrink_400_400/0/1709462131405?e=1712941200&v=beta&t=5bLZeDnF0ie0tI7iVUZ3-A_dkC4_IN_T9J7sY_nL1Go'),
-(2, 'puja', 'admin', 'Lead Developer', 'https://ums.lpu.in/lpuums/Telerik.Web.UI.WebResource.axd?imgid=1b604ff3f29248e29487a9aafc8d8f29&type=rbi')
+(1, 'Rupali', 'admin', 'Lead Developer', 'https://media.licdn.com/dms/image/D4D03AQGoF1RTHzNwMw/profile-displayphoto-shrink_800_800/0/1698758401443?e=1717632000&v=beta&t=SVxyAFJjiCHY8dMwUUIQjyH7A8N8WnkAuJOvdKO67Xw'),
+(2, 'Sapna', 'admin', 'Associate Developer', 'https://media.licdn.com/dms/image/D5635AQFsmHEFBO0wpg/profile-framedphoto-shrink_400_400/0/1709462131405?e=1712941200&v=beta&t=5bLZeDnF0ie0tI7iVUZ3-A_dkC4_IN_T9J7sY_nL1Go'),
+(3, 'Puja', 'admin', 'Lead Developer', 'https://media.licdn.com/dms/image/D5603AQEiaCexxyF0bA/profile-displayphoto-shrink_800_800/0/1712212346518?e=1718236800&v=beta&t=yXaUynAFf9wiuyrKyyumUez_uJXiye_pYASLqe66HhU'),
+(4, 'Diksha', 'admin', 'Developer', 'https://media.licdn.com/dms/image/D4D03AQGIvwOoVpgHyQ/profile-displayphoto-shrink_800_800/0/1673153703844?e=1718236800&v=beta&t=fMrJSsrPpjrJ75kZSgzSbvZw5J4PiYYqx3jjLX_IwfA')
 ;
 
 -- --------------------------------------------------------
