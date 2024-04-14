@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('../assets/bg.svg');
+    background-repeat: no-repeat;
+  background-position: bottom;
+    /* height: 100vh; */
+} 
+
+.topContainer {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    /* width: 100%; */
+    /* background-size: 400% 400%; */
+    
+    background: linear-gradient(-90deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);;
+    /* background-size: 100vh; */
+    /* position: relative; */
+    animation: animate 7.5s ease-in-out infinite;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;   
+}
+
+.aboutSection {
+    /* color: white; */
+    backdrop-filter: blur(10px);
+/* background-color: rgba(44, 44, 44, 0.15); */
+    /* background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);; */
+    position: absolute;
+    top: 37vh;
+    width: 600px;
+    left: 0;
+    right: 0;
+    top: 60%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    /* left: 30vw; */
+    text-align: center;
+    /* background-color: rebeccapurple; */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+    /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    
+    line-height: 2;
+}
+
+.aboutSection:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+.bottomContainer {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+h1{
+    text-align: center;
+  color: #fff;
+  /* background: rgba(255,255,255,.2); */
+  padding: 20px;
+  font-size: 35px;
+  border-radius: 10px;
+}
+
+
+
+h2{
+    margin-top: 10vh;
+    text-align: center;
+  color: #ffffff;
+  background: rgba(255,255,255,.2);
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+@keyframes animate{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+
+.homeBtn {
+    /* margin-top: 25vh; */
+    text-align: center;
+    width: 120px;
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    background-color: #5000ca;
+    font-weight: bold;
+    color: white;    
+}
+.second {
+    margin-top: 2vh;
+}
+
+  
+  .homeBtn:hover {
+    background-color: black;
+    box-shadow: 0px 15px 20px rgba(47, 49, 48, 0.4);
+    color: #fff;
+    transform: translateY(-3px);
+  }
+  .footer {
+    height: 10vh;
+    background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);;
+
+  }
+
+  /* feature css */
+  .featureContainer {
+    display: flex;
+    /* margin-top: 30vh; */
+    margin-bottom: 30vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+
+  .feature {
+    width: 300px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.6s ease 0s;
+
+    padding: 20px;
+    border-radius: 15px;
+  }
+.feature:hover {
+    box-shadow: 0px 15px 20px rgba(47, 49, 48, 0.4);
+
+    
+}
+  .feature img {
+    width: 200px;
+  }
+
+  .featureHead {
+    text-align: center;
+    /* color: #fff; */
+    margin-top: 39vh;
+    color: #000;
+    font-size: 30px;
+    border-radius: 10px;
+  }

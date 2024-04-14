@@ -12,8 +12,7 @@
     
         return $key;
     }
-    
-    
+        
     try {
     if ($_POST) {
         $category = $_POST['cat'];
@@ -31,9 +30,6 @@
         // echo "Email: " . $email . "<br>";
         // echo "Title: " . $title . "<br>";
         // echo "Complaint: " . $description . "<br>";
-
-
-
 
         $connection = dbConnectivity();
         $query = "INSERT INTO complaints (name, contact, email, title, description, uniqueId, status, category)

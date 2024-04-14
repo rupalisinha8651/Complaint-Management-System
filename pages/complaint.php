@@ -8,7 +8,6 @@
         // echo "hello" . $_GET["complaintID"];
         $id = $_GET["complaintID"];
 
-
         include("../handlers/dbConnectivity.php");
 
         $connection = dbConnectivity();
@@ -33,8 +32,6 @@
                     $status_statement = "Solved";
                 }
 
-
-
                 // echo "Title: " . $title . "<br>";
                 // echo "ID: " . $id . "<br>";
                 // echo "Contact: " . $contact . "<br>";
@@ -50,8 +47,7 @@
             // header("Location: ")
             exit();
         }
-
-        
+  
     }
 ?>
 
@@ -134,10 +130,7 @@
     </tr>
     ";
 
-
-
     ?>
-
 
   </tbody>
 </table>    
@@ -150,13 +143,8 @@
 
 </body>
 
-
 <!-- <script src="../scripts/complaintsScript.js">
 
 </script> -->
 
 </html>
-
-
-
-

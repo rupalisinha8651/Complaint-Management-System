@@ -5,7 +5,6 @@
         // echo "hello" . $_GET["complaintID"];
         $id = $_GET["complaintID"];
 
-
         include("dbConnectivity.php");
 
         $connection = dbConnectivity();
@@ -36,7 +35,6 @@
 
             // header("Location: ")
         }
-
         
     }
 ?>

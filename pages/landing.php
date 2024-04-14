@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     
     <meta name="viewport" content="width=device-width">
-    <title>CMS Beta</title>
+    <title>SSMS Beta</title>
 </head>
 <script type="module" src="../scripts/landingScripts.js">
 </script>
@@ -96,7 +96,7 @@
     src="../assets/landing_main.svg" 
     alt="vector graphics">   
 
-    <h1>Complaint <span>Management</span> System</h1>
+    <h1>Scholor Solution <span>Management</span> System</h1>
     <p>
     Empower Your Voice, Resolve Your Concerns: Our Complaint Management System
     </p>
@@ -111,7 +111,7 @@
             </div>
             </div>
 
-<p class="credits">Wantedbear Productions😉</p>
+<!-- <p class="credits"> Rupali & Teams Productions😉</p> -->
 </body>
 
 <script src="../scripts/landingScripts.js">

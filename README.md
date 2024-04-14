@@ -1,10 +1,9 @@
-# Complaint Management System
+# Scholor Solution Management System
 
 ## Installation
 
 1. Edit mySQL database config present in handlers/dbConnectivity.php change username and password.
 2. Import database file to your local system database. (Used XAMPP while development).
-
 
 ## Usage
 
@@ -27,15 +26,3 @@ This project was made possible with the help of the following resources:
 1. Non-responsive (CSS is boooooooring).
 2. Brute force appoach of developement.
 3. Code repetition.
-
-## Screenshots
-
-![Home Screen](https://github.com/wantedbear007/Complaint-Management-PHP/blob/main/Screenshots/home.png)
-![Login Page](https://github.com/wantedbear007/Complaint-Management-PHP/blob/main/Screenshots/login.png)
-![Register Complaint](https://github.com/wantedbear007/Complaint-Management-PHP/blob/main/Screenshots/register.png)
-![Complaint](https://github.com/wantedbear007/Complaint-Management-PHP/blob/main/Screenshots/adminHome.png)
-![Search Compalaint](https://github.com/wantedbear007/Complaint-Management-PHP/blob/main/Screenshots/search.png)
-![Complaint Status](https://github.com/wantedbear007/Complaint-Management-PHP/blob/main/Screenshots/status.png)
-
-
-

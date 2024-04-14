@@ -7,9 +7,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="./style/index.css">
 
-    <title>Document</title>
+    <title>Loading SSMS</title>
     <!-- <img src="../assets/loading.svg"> -->
 </head>
 <body>
@@ -22,21 +22,24 @@
 </svg>
 <div class="control-panel">
     <!-- Loading, Complaint Management System -->
-    <span>Complaint Management System</span>
+    <span>Loading, Scholor Solution Management System</span>
 </div>
 
 </body>
 </html>
 
 <?php
+    require_once("./handlers/dbConnectivity.php");
+
+    $lol = dbConnectivity();
+    if ($lol == TRUE) {
+        header("Refresh: 3 ; ./pages/start.php");
+
+    } else {
+        echo '<script>alert("Database connectivity failed, Try checking credentials !")</script>'; 
+
+    }
 
 
-      header("Refresh: 3 ; http://localhost/project/pages/landing.php");
-
-        // echo "Hello, world";
-        // header("Location: http://localhost/project/pages/login.php");
-         //header("Location: http://localhost/project/handlers/dbConnectivity.php");
-        //yes changes reflected
-        // exit();
 
 ?>

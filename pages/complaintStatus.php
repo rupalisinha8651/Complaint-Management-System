@@ -10,9 +10,8 @@
 
     <link rel="stylesheet" href="../style/home.css">
 
-    <title>Complaint Status - CMS</title>
+    <title>Complaint Status - SSMS</title>
 </head>
-
 
 <body>
 
@@ -34,7 +33,7 @@
   <section>
       <div class="card">
         <div class="card-child">
-          <h1 class="user-title">Welcome Bhanupratap ! <span class="xdgfds">
+          <h1 class="user-title">Welcome Rupali ! <span class="xdgfds">
             <button>Logout</button>
           </span></h1>
           <!-- button -->
@@ -85,7 +84,3 @@
 
 </body>
 </html>
-
-
-
-

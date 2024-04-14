@@ -7,9 +7,8 @@
 
     <link rel="stylesheet" href="../style/complaints.css">
 
-    <title>Complaints - CMS</title>
+    <title>Complaints - SSMS</title>
 </head>
-
 
 <body>
 
@@ -55,11 +54,8 @@
         }
 
         // trial
-        
 
-          
         // trial
-          
 
           echo "<h1 class='user-title'>Welcome, $user ! <span class='xdgfds'><br>";
           echo "<h4 class='position'>$position</h4>"
@@ -96,7 +92,6 @@
     <?php
     $str = "hello";
 
-
     function generateRandom5DigitNumber() {
       $min = 10000; // Smallest 5-digit number
       $max = 99999; // Largest 5-digit number
@@ -123,6 +118,7 @@
       $uniqueId = $row["uniqueId"];
       $status = $row["status"];
       $remarks = $row["remarks"];
+      $category = $row["category"];
       // $createDate = $row["createdate"];
       // $updateDate = $row["updatedate"];
       // $department = $row["deapartment"];
@@ -152,7 +148,7 @@
 
       </form>
       <td>
-      <span>
+      <span class='lol'>
       <button id='$uniqueId' class='solveBtn' onClick='abc($uniqueId)'>Details</button>
       <div id='myModal' class='modal'>
  
@@ -171,10 +167,11 @@
             <hr class='modalHr'>
             <p><strong>Title:</strong>$title</p>
             <hr class='modalHr'>
+            <p><strong>Category:</strong>$category</p>
             <hr class='modalHr'>
              <p><strong>Discription:</strong> $description </p>
              <hr class='modalHr'>
-        <p><strong>Privious remark : </strong> $remarks<p>
+        <p><strong>Previous remark : </strong> $remarks<p>
         <hr class='modalHr'>
              <hr class='modalHr'>
         </p>
@@ -194,9 +191,7 @@
         </div>
         </span>
       </td>
-      
 
-  
     </tr>
 
 
@@ -207,9 +202,6 @@
 
 
     ?>
-
-
-
 
   </tbody>
 </table>    
@@ -230,22 +222,22 @@
     $message = "Not recorded";
 
     if ($_GET) {
-      try {
-      if ($_GET["success"]) {
-        $val =  $_GET["success"];      
-        if ($val == '1') {
-          echo '<script>
-          alert("Updated Successfully")
-      </script>';
-    } else {
-      echo '<script>
-      alert("Error Occurred")
-      </script>';
-    }
-  }
-} catch (Exception $e) {
+//       try {
+//       if ($_GET["success"]) {
+//         $val =  $_GET["success"];      
+//         if ($val == '1') {
+//           echo '<script>
+//           alert("Updated Successfully")
+//       </script>';
+//     } else { 
+//       echo '<script>
+//       alert("Error Occurred")
+//       </script>';
+//     }
+//   }
+// } catch (Exception $e) {
 
-}
+// }
 
 }
 ?>

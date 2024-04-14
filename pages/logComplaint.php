@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="../style/login.css">
 
-    <title>Log Complaint - CMS</title>
+    <title>Log Complaint - SSMS</title>
 </head>
 <body>
 
@@ -30,7 +30,7 @@
     <div class="card">
               <div class="title">
                 <img src = "../assets/graphics_log.svg" class='logGraphics' style='height: 250px'/>
-         <h1 style='font-size: 40px'><span>CMS<br></span> Log Complaint</p>
+         <h1 style='font-size: 40px'><span>SSMS<br></span> Log Complaint</p>
        </div>
       <div class="description">
       <div class="login-form">
@@ -46,15 +46,15 @@
           </select>
           <br>
         <label for="name">Name:</label>
-        <input value="bhanupratap"  placeholder="Enter your name" type="text" id="name" name="name" required><br>
+        <input value="Rupali"  placeholder="Enter your name" type="text" id="name" name="name" required><br>
         <label for="contact">Contact number</label>
-        <input value="9131987420" placeholder="Enter your Contact number" pattern="[789][0-9]{9}" type="text" id="contact" name="contact" required><br>
+        <input value="9876543210" placeholder="Enter your Contact number" pattern="[789][0-9]{9}" type="text" id="contact" name="contact" required><br>
         <label for="email">Email:</label>
-        <input value="pratapsin@gmail.com" placeholder="Enter your email address"  type="email" id="email" name="email" required><br>
+        <input value="rupali@gmail.com" placeholder="Enter your email address"  type="email" id="email" name="email" required><br>
         <label for="title">Title</label>
-        <input value="defaut value " placeholder="Title of your complaint"  type="text" id="title" name="title" required><br>
+        <input value="Complaint " placeholder="Title of your complaint"  type="text" id="title" name="title" required><br>
         <label for="complaint">Complaint:</label><br>
-        <textarea value="dsfsdfsdfds" placeholder="Explain your complaint briefly" id="complaint" name="complaint" rows="4" cols="50" required></textarea><br>
+        <textarea value="Function Not Working" placeholder="Explain your complaint briefly" id="complaint" name="complaint" rows="4" cols="50" required></textarea><br>
           <button type="submit">Submit</button>
         </form>
         <?php
@@ -97,7 +97,3 @@
 
 </body>
 </html>
-
-
-
-

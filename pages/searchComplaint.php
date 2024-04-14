@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../style/login.css">
     <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
 
-    <title>Search Complaint - CMS</title>
+    <title>Search Complaint - SSMS</title>
 </head>
 <body>
   
@@ -65,6 +65,3 @@
 
 </body>
 </html>
-
-
-

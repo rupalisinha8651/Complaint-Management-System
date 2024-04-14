@@ -7,7 +7,6 @@
         echo $id;
 
         try {
-
             
             include("dbConnectivity.php");
 

@@ -4,9 +4,7 @@
 define("server", "localhost");
 define("user", "root");
 define("pass", "");
-define("db_name", "cms");
-
-
+define("db_name", "ssms");
 
 function dbConnectivity() {
     try {
@@ -14,11 +12,11 @@ function dbConnectivity() {
         if (!$connection) {
             echo 'not connected';
             print( "failed to connect " . mysqli_connect_error());
-            
+            throw new Exception("Database connectivity failed !");
+            echo '<script>alert("Welcome to Geeks for Geeks")</script>'; 
             exit();
-        } else{
-          
-        }
+
+        } 
 
         // $query = "select * from auth;";
     // $result = mysqli_query($connection, $query);
@@ -30,6 +28,5 @@ function dbConnectivity() {
         return false;
     }
 }
-
 
 dbConnectivity();

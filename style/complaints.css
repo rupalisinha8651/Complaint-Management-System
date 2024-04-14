@@ -552,7 +552,11 @@ input {
 
 /* model styling */
 
+
+
 .modal {
+  border-radius: 20px !important;
+  padding: 20px !important;
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -572,8 +576,9 @@ input {
 /* Modal Content */
 .modal-content {
   position: fixed;
-  background-color: #fefefe;
+  background-color: white;
   width: 60%;
+  border-radius: 20px;
   margin:10% 20%;
   -webkit-animation-name: slideIn;
   -webkit-animation-duration: 0.4s;
@@ -608,13 +613,13 @@ input {
     overflow-y: auto;
     text-align: center;
 }
-.modalHr{
+/* .modalHr{
 
   border:5px dotted #3f0399;
     border-bottom:0;
     width: 7%;
     margin: 5px auto 5px auto;
-}
+} */
 .modal-footer {
   padding: 2px 16px;
   background-color: #3f0399;
