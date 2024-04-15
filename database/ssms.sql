@@ -64,7 +64,7 @@ CREATE TABLE `complaints` (
   `uniqueId` varchar(10) DEFAULT NULL,
   `status` int DEFAULT NULL,
   `remarks` varchar(255) DEFAULT NULL,
-  `category` varchar(255) NOT NULL,
+  `category` varchar(255) NOT NULL
 );
 
 --
