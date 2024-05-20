@@ -22,7 +22,6 @@
 </svg>
 <div class="control-panel">
     <!-- Loading, Complaint Management System -->
-    <span>Loading </span>
     <span>Complaint Management System</span>
 </div>
 
