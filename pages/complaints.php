@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="../style/complaints.css">
 
-    <title>Complaints - SSMS</title>
+    <title>Complaints - CMS</title>
 </head>
 
 <body>
@@ -32,7 +32,6 @@
         <div class="card-child">
           <?php
             session_start();
-            // echo $_SESSION['logged'];
             $user = $_SESSION['user'];
           if ($_SESSION['logged'] != "1") {
             header("Location: http://localhost/project/pages/login.php");
@@ -53,9 +52,6 @@
             }
         }
 
-        // trial
-
-        // trial
 
           echo "<h1 class='user-title'>Welcome, $user ! <span class='xdgfds'><br>";
           echo "<h4 class='position'>$position</h4>"
@@ -79,10 +75,11 @@
       <!-- <th>Contact Number</th>
       <th>Email</th> -->
       <th>Title</th>
+      <th>Category</th>
     
       <th>Status</th>
-      <th>Previous</th>
       <th>Remarks</th>
+      <th>Action</th>
   
       <th></th>
 
@@ -99,9 +96,6 @@
       return rand($min, $max);
   }
 
-  // getting data from database
-
-  // include("../handlers/dbConnectivity.php");
   $connection = dbConnectivity();
 
   $query = "SELECT * FROM complaints";
@@ -119,9 +113,8 @@
       $status = $row["status"];
       $remarks = $row["remarks"];
       $category = $row["category"];
-      // $createDate = $row["createdate"];
-      // $updateDate = $row["updatedate"];
-      // $department = $row["deapartment"];
+
+
       $remarkWord = "Solved";
       $fontColor = 'green';
       if ($status == '2') {
@@ -137,6 +130,7 @@
        <td>$email</td>
        -->
       <td>$title</td>
+      <td>$category</td>
   
       
       <strong>
@@ -199,16 +193,11 @@
 
   }
   }
-
-
-    ?>
+   ?>
 
   </tbody>
 </table>    
 
-<!-- table section -->
-
-<!-- table section -->
         </div>
 
     </div>
@@ -222,22 +211,6 @@
     $message = "Not recorded";
 
     if ($_GET) {
-//       try {
-//       if ($_GET["success"]) {
-//         $val =  $_GET["success"];      
-//         if ($val == '1') {
-//           echo '<script>
-//           alert("Updated Successfully")
-//       </script>';
-//     } else { 
-//       echo '<script>
-//       alert("Error Occurred")
-//       </script>';
-//     }
-//   }
-// } catch (Exception $e) {
-
-// }
 
 }
 ?>

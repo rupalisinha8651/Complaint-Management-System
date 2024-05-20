@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/index.css">
 
-    <title>Loading SSMS</title>
+    <title>Loading CMS</title>
     <!-- <img src="../assets/loading.svg"> -->
 </head>
 <body>
@@ -22,7 +22,8 @@
 </svg>
 <div class="control-panel">
     <!-- Loading, Complaint Management System -->
-    <span>Loading, Scholor Solution Management System</span>
+    <span>Loading </span>
+    <span>Complaint Management System</span>
 </div>
 
 </body>

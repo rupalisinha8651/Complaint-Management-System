@@ -4,7 +4,7 @@
 define("server", "localhost");
 define("user", "root");
 define("pass", "");
-define("db_name", "ssms");
+define("db_name", "cms");
 
 function dbConnectivity() {
     try {
@@ -18,9 +18,7 @@ function dbConnectivity() {
 
         } 
 
-        // $query = "select * from auth;";
-    // $result = mysqli_query($connection, $query);
-  
+
         return $connection;
 
     } catch (Exception $e) {

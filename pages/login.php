@@ -15,7 +15,7 @@ if ($_SESSION) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
     <link rel="stylesheet" href="../style/login.css">
-    <title>Admin Login - SSMS</title>
+    <title>Admin Login - CMS</title>
 </head>
 <body>
 
@@ -60,16 +60,16 @@ if ($_SESSION) {
     <div class="card">
               <div class="title">
               <img src = "../assets/login_graphics.svg" class='logGraphics' style='height: 250px'/>
-         <h1 style='font-size: 30px' class="parentTitle">Scholor Solution Management System</p>
+         <h1 style='font-size: 30px' class="parentTitle">Complaint Management System</p>
        </div>
       <div class="description">
       <div class="login-form">
         <h2>Admin Login</h2>
         <form  action="../handlers/auth.php" method="POST">
           <label for="username" >Username:</label>
-          <input value='Rupali' type="text" id="username" name="username" placeholder="Enter your username" required>
+          <input  type="text" id="username" name="username" placeholder="Enter your username" required>
           <label for="password">Password:</label>
-          <input value="admin" type="password" id="password" name="password" placeholder="Enter your password" required>
+          <input  type="password" id="password" name="password" placeholder="Enter your password" required>
           <button type="submit" value="submit">Login</button>
         </form>
           <?php

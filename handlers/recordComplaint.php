@@ -25,11 +25,6 @@
 
         echo "compaint is " . $category . "";
 
-        // echo "Name: " . $name . "<br>";
-        // echo "Contact: " . $contact . "<br>";
-        // echo "Email: " . $email . "<br>";
-        // echo "Title: " . $title . "<br>";
-        // echo "Complaint: " . $description . "<br>";
 
         $connection = dbConnectivity();
         $query = "INSERT INTO complaints (name, contact, email, title, description, uniqueId, status, category)
@@ -37,7 +32,6 @@
 
         if (mysqli_query($connection, $query)) {
 
-            // echo "helloooooooooooo" . $category;
 
             echo "Complaint added successfully!";
             header("Location: http://localhost/project/pages/logComplaint.php?success=1&id=$uniqueKey");

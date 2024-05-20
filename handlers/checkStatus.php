@@ -1,8 +1,7 @@
 <?php
-    echo "Hello, world";
     
     if ($_GET["complaintID"]) {
-        // echo "hello" . $_GET["complaintID"];
+
         $id = $_GET["complaintID"];
 
         include("dbConnectivity.php");
@@ -31,9 +30,7 @@
             }
         } else {
             echo "failed to status";
-            // header("Location: http://localhost/project/pages/complaints.php?success=2");
 
-            // header("Location: ")
         }
         
     }

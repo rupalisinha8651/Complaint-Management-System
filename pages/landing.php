@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     
     <meta name="viewport" content="width=device-width">
-    <title>SSMS Beta</title>
+    <title>CMS</title>
 </head>
 <script type="module" src="../scripts/landingScripts.js">
 </script>
@@ -96,7 +96,7 @@
     src="../assets/landing_main.svg" 
     alt="vector graphics">   
 
-    <h1>Scholor Solution <span>Management</span> System</h1>
+    <h1>Complaint <span>Management</span> System</h1>
     <p>
     Empower Your Voice, Resolve Your Concerns: Our Complaint Management System
     </p>
@@ -110,12 +110,9 @@
             </div>   
             </div>
             </div>
-
-<!-- <p class="credits"> Rupali & Teams Productions😉</p> -->
 </body>
 
 <script src="../scripts/landingScripts.js">
-// <script type="module" src="../scripts/res.js">
 
 </script>
 </html>

@@ -20,7 +20,7 @@ SET time_zone = "+00:00";
 
 /*mysql -u root -p */;
 --
--- Database: `ssms`
+-- Database: `CMS`
 --
 
 -- --------------------------------------------------------
@@ -43,7 +43,7 @@ CREATE TABLE `admin` (
 
 INSERT INTO `admin` (`id`, `username`, `password`, `position`, `profileURL`) VALUES
 (1, 'Rupali', 'admin', 'Lead Developer', 'https://media.licdn.com/dms/image/D4D03AQGoF1RTHzNwMw/profile-displayphoto-shrink_800_800/0/1698758401443?e=1717632000&v=beta&t=SVxyAFJjiCHY8dMwUUIQjyH7A8N8WnkAuJOvdKO67Xw'),
-(2, 'Sapna', 'admin', 'Associate Developer', 'https://media.licdn.com/dms/image/D5635AQFsmHEFBO0wpg/profile-framedphoto-shrink_400_400/0/1709462131405?e=1712941200&v=beta&t=5bLZeDnF0ie0tI7iVUZ3-A_dkC4_IN_T9J7sY_nL1Go'),
+(2, 'Sapna', 'admin', 'Associate Developer', 'https://media.licdn.com/dms/image/D5635AQFsmHEFBO0wpg/profile-framedphoto-shrink_800_800/0/1709462131405?e=1716807600&v=beta&t=rc4gbrHwycfKMaH7klqypADyemj90IjfoRIrTLRlY2k'),
 (3, 'Puja', 'admin', 'Lead Developer', 'https://media.licdn.com/dms/image/D5603AQEiaCexxyF0bA/profile-displayphoto-shrink_800_800/0/1712212346518?e=1718236800&v=beta&t=yXaUynAFf9wiuyrKyyumUez_uJXiye_pYASLqe66HhU'),
 (4, 'Diksha', 'admin', 'Developer', 'https://media.licdn.com/dms/image/D4D03AQGIvwOoVpgHyQ/profile-displayphoto-shrink_800_800/0/1673153703844?e=1718236800&v=beta&t=fMrJSsrPpjrJ75kZSgzSbvZw5J4PiYYqx3jjLX_IwfA')
 ;
@@ -71,17 +71,7 @@ CREATE TABLE `complaints` (
 -- Dumping data for table `complaints`
 --
 
-INSERT INTO `complaints` (`id`, `name`, `contact`, `email`, `title`, `description`, `uniqueId`, `status`, `remarks`,`category`) VALUES
-(1, 'Amit Sharma', '9876543211', 'amit@example.com', 'Billing Issue', 'I was charged incorrectly for my last purchase.', 'ABCD1234', 1, 'Investigating'),
-(2, 'Priya Patel', '9876543212', 'priya@example.com', 'Product Quality', 'The product I received is of poor quality and doesn\'t work as expected.', 'EFGH5678', 1, 'Pending'),
-(3, 'Rajesh Kumar', '9876543213', 'rajesh@example.com', 'Shipping Delay', 'My order has been delayed for more than a week.', 'IJKL9012', 1, 'Investigating'),
-(4, 'Neha Verma', '9876543214', 'neha@example.com', 'Product Missing', 'One of the items in my order is missing from the delivery.', 'MNOP3456', 1, 'Investigating'),
-(5, 'Ankur Gupta', '9876543215', 'ankur@example.com', 'Defective Product', 'The product I received is damaged and unusable.', 'QRST7890', 1, 'Pending'),
-(6, 'Pooja Singh', '9876543216', 'pooja@example.com', 'Late Delivery', 'My order has not been delivered even though it was scheduled for today.', 'UVWX1234', 1, 'Investigating'),
-(7, 'Rahul Singh', '9876543217', 'rahul@example.com', 'Wrong Product', 'I received a completely different product from what I ordered.', 'YZAB5678', 2, 'Pending'),
-(8, 'Shreya Pandey', '9876543218', 'shreya@example.com', 'Refund Request', 'I would like to request a refund for my recent purchase.', 'CDEF9012', 1, 'Processing'),
-(9, 'Nisha Gupta', '9876543219', 'nisha@example.com', 'Product Quality', 'The quality of the product is not up to the mark as advertised.', 'KLMN7890', 1, 'Investigating'),
-(10, 'Vikram Sharma', '9876543220', 'vikram@example.com', 'Delayed Refund', 'I requested a refund, but it\'s taking too long to process.', 'OPQR1234', 1, 'Processing'),
+
 
 
 --

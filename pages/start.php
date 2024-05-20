@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/start.css">
-    <title>Explore NExtGeneration Scholar Solution </title>
+    <title>Complaint Management System </title>
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 </head>
 
@@ -14,8 +14,8 @@
     <div class="parentContainer">
         <div class="topContainer">
       
-            <h2>Scholor 
-                Solution
+            <h2>Complaint
+                
                 <span style="color: #5000ca">
     
                      Management
@@ -32,7 +32,7 @@
         </div>
 
         <div class="aboutSection">
-            <p>Loddrem ipsum dolor sit amet consectetur adipisicing elit. Ex in quae nam, quibusdam mollitia dolore soluta fugit tempore nulla? Delectus ullam sapiente exercitationem cupiditate fugit quam aspernatur omnis tempora adipisci velit consequatur doloremque nobis voluptates distinctio provident, nemo officia quod assumenda debitis iusto dolorem quasi, quos atque. Minima deserunt, aliquam consequatur fugit laborum assumenda et voluptatem quibusdam. Qui alias a ratione illo consequatur vitae repellendus ipsam, animi, esse obcaecati perferendis.</p>
+            <p>A Complaint Management System for a university is a centralized digital platform that efficiently handles and resolves grievances from students, faculty and staff of university. It streamlines the process of submitting, tracking, and addressing complaints, ensuring timely resolution and promoting transparency. Through automated processes and intuitive interfaces, the system facilitates effective communication and collaboration among users.</p>
             <div>
                 <a href="#more">
 
@@ -48,35 +48,33 @@
         <div class="featureContainer">
             <div class="feature">
 
-                <img src="../assets/add.svg" />
-                <h3>Easily Adaptable</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero molestias soluta vel in reprehenderit cupiditate debitis, nihil dicta iusto placeat cum ab voluptas ad quos deleniti ex temporibus exercitationem repellendus.</p>
+                <img src="../assets/eassy.svg" />
+                <h3>User Friendly</h3>
+                <p>The system provides an intuitive and easy-to-use interface for students, teachers and staffs to submit complaints, track their progress, and communicate with administrators. It's designed to be accessible to users of all technical levels.
+</p>
             </div>
 
             <div class="feature">
 
-                <img src="../assets/add.svg" />
-                <h3>Easily Adaptable</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero molestias soluta vel in reprehenderit cupiditate debitis, nihil dicta iusto placeat cum ab voluptas ad quos deleniti ex temporibus exercitationem repellendus.</p>
+                <img src="../assets/transp.svg" />
+                <h3>Enhanced Transparency</h3>
+                <p>The website provides transparency in the complaint handling process, allowing complainants to track the status of their complaints and see the actions taken by administrators, fostering trust and accountability within the university community.</p>
             </div>
             <div class="feature">
 
                 <img src="../assets/add.svg" />
-                <h3>Easily Adaptable</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero molestias soluta vel in reprehenderit cupiditate debitis, nihil dicta iusto placeat cum ab voluptas ad quos deleniti ex temporibus exercitationem repellendus.</p>
+                <h3>Better Communication</h3>
+                <p>The website facilitates communication between complainants and administrators, allowing for prompt updates, requests for additional information, and clarification of concerns, leading to clearer understanding and faster resolution of complaints. 
+
+</p>
             </div>
             
         </div>
         </div>
-        <!-- <div class="footer">
-
-        </div> -->
     </div>
 
 </body>
 <script src="../scripts/landingScripts.js">
-// <script type="module" src="../scripts/res.js">
-
 </script>
 
 </html>

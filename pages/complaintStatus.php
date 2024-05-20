@@ -1,6 +1,3 @@
-
-<!-- todo  -->
-<!-- create for admin and user -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +7,7 @@
 
     <link rel="stylesheet" href="../style/home.css">
 
-    <title>Complaint Status - SSMS</title>
+    <title>Complaint Status - CMS</title>
 </head>
 
 <body>
@@ -55,24 +52,7 @@
 
     </tr>
   </thead>
-  <tbody>
-    <?php
-      for ($x = 0; $x <= 10; $x++) {
-      echo"  <tr>
-        <td data-column=> $x </td>
-        <td>Matman</td>
-        <td>Chief Sandwich Eater</td>
-        <td>@james</td>
-        <td>@james</td>
 
-      </tr>
-
-      ";
-      }
-    ?>
-
-
-  </tbody>
 </table>    
           </div>
         </div>

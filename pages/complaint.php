@@ -1,11 +1,7 @@
-
-<!-- todo  -->
-<!-- create for admin and user -->
-
 <?php
     
     if ($_GET["complaintID"]) {
-        // echo "hello" . $_GET["complaintID"];
+
         $id = $_GET["complaintID"];
 
         include("../handlers/dbConnectivity.php");
@@ -25,26 +21,18 @@
                 $status = $row['status'];
                 $name = $row['name'];
                 $remark = $row['remarks'];
-
+                $category = $row['category'];
                 $status_statement = "Not Solved";
 
                 if ($status == '1') {
                     $status_statement = "Solved";
                 }
 
-                // echo "Title: " . $title . "<br>";
-                // echo "ID: " . $id . "<br>";
-                // echo "Contact: " . $contact . "<br>";
-                // echo "Email: " . $email . "<br>";
-                // echo "Description: " . $description . "<br>";
-                // echo "Status: " . $status . "<br>";
-                // // exit();
             }
         } else {
-        //    echo "failed to status";
+
             header("Location: http://localhost/project/pages/searchComplaint.php?success=2");
 
-            // header("Location: ")
             exit();
         }
   
@@ -101,8 +89,10 @@
     <tr>
       <th>Unique ID</th>
       <th>Title</th>
+      <th>Category</th>
       <th>Description</th>
       <th>Status</th>
+
       <th>Remarks</th>
       <th>Action</th>
     </tr>
@@ -115,6 +105,7 @@
       echo"  <tr>
       <td data-column=> $id </td>
       <td>$title</td>
+      <td>$category</td>
       <td>$description</td>
       <td>$status_statement</td>
       <td>$remark</td>
@@ -138,13 +129,13 @@
 
     </div>
 
+    <form action="../handlers/goHome.php" method="POST">
+       <button class="homeBtn" href="http://localhost/project/pages/landing.php">Home</button>
+    </form>
   </section>
 </div>
 
 </body>
 
-<!-- <script src="../scripts/complaintsScript.js">
-
-</script> -->
 
 </html>

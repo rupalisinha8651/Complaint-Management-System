@@ -6,8 +6,6 @@ try {
     if (isset($_POST['logout'])) {
         echo "hello";
         session_start();
-        // unset($_SESSION['logged']);
-        // unset($_SESSION['user']);
 
         session_destroy();
 
@@ -31,17 +29,15 @@ try {
             $username= $row["username"];
             $position = $row["position"];
             $image = $row["profileURL"];
-            // setcookie("username", $username, time() + (86400 * 30), "/"); // 86400 = 1 day
             $_SESSION['user'] = $row["username"];
             $_SESSION['logged'] = "1";
             header("Location: http://localhost/project/pages/complaints.php?user=" . $row["username"]);
             exit();
-            // echo "id" . $row["id"] . "username" . $row["username"];
+ 
         }
     } else {
         header("Location: http://localhost/project/pages/login.php?status=0");
         exit();
-        // echo "hello";
     }
 
 } catch (Exception $e) {
